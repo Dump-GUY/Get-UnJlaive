@@ -10,7 +10,8 @@ Jlaive is an antivirus evasion tool that can convert .NET assemblies into undete
 
 ## DESCRIPTION
 Get-UnJlaive PS module uses dnlib to parse assembly and .NET reflection to load dnlib.<br/>
-Jlaive protected .bat file is executed and immediately suspended-terminated to grab deobfuscated form of cmdline - when obfuscation was used<br/>
+Jlaive protected .bat file is executed and immediately suspended-terminated to grab deobfuscated form of cmdline -<br/>
+when obfuscation was used<br/>
 Run ONLY in your VM - malicious code should not be executated but for sure<br/>
 If you want to run .bat file as elevated process run this module elevated<br/>
 Tested version Jlaive v0.2.3<br/>
